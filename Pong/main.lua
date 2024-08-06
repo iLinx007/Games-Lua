@@ -55,7 +55,6 @@ function love.load()
 
     -- game state variable used to transition between different parts of the game
     -- (used for beginning, menus, main game, high score list, etc.)
-    -- we will use this to determine behavior during render and update
     gameState = 'start'
 end
 
